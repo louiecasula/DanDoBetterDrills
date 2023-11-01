@@ -89,6 +89,7 @@ public class StringUtilities {
      * @return an identical string with characters in reverse order.
      */
     public static String reverse(String stringToReverse){
-        return null;
+        StringBuilder sb = new StringBuilder(stringToReverse);
+        return sb.reverse().toString();
     }
 }
